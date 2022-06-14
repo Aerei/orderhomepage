@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문하기</title>
+    <style>
+        header {
+            background: lightgray;
+        }
+
+        .mainbar {
+            text-align: center;
+        }
+
+        .mainbar ul {
+            display: inline-flex;
+            list-style: none;
+            color: white;
+        }
+
+        .mainbar ul li {
+            width: 250px;
+            margin: 5px;
+            padding: 5px;
+            font-size:19px;
+        }
+
+        .mainbar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .active:hover {
+            background: grey;
+            border-radius: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        #home {
+            background: grey;
+            border-radius: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        
+        .mainimg {
+            margin: 20px 0 0 250px;
+        }
+
+        .menu {
+            color: black;
+            margin: 5px;
+            padding: 5px;
+            font-size:24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="mainbar">
+        <ul>
+            <img src="/image/icon1.png" alt="icon1" width="50px" height="50px"> <h5 class="menu">Dish</h5>
+            <li><a href="#" class="active" id="home">홈</a></li>
+            <li><a href="menu.html" class="active" id="menu">메뉴</a></li>
+            <li><a href="review.html" class="active" id="review">리뷰</a></li>
+            <li><a href="order.html" class="active" id="order">주문</a></li>
+            <img src="/image/icon2.png" alt="icon2" width="50px" height="50px">
+        </ul>
+    </div>
+    </header>
+    <nav>
+    <a href="order.html"><img src="/image/main.png" alt="menu1" width="70%" height="70%" class="mainimg"></a>
+    </nav>
+</body>
+</html>
